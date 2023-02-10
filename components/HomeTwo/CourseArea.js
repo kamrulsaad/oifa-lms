@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import { useSelector } from 'react-redux';
 import { useGetCoursesQuery } from '../../redux/api/apiSlice';
 
 const CourseArea = () => {
+
   const {data:courses,isLoading,error,isError} = useGetCoursesQuery();
 
   // decide to render
@@ -496,6 +496,7 @@ const CourseArea = () => {
      </div>
    </div>
   }
+
   return (
     <>
       <section className="course__area grey-bg-4 pt-110 pb-90">

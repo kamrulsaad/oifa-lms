@@ -9,7 +9,7 @@ const HeroArea = () => {
                <div className="row align-items-center">
                   <div className="col-xxl-6 col-lg-6">
                      <div className="slider__content-2 mt-30">
-                        <span>The Leader in Online Learning</span>
+                        <span>The Leaders in Online Learning</span>
                         <h3 className="slider__title-2">Build an Incredible Learning Experience</h3>
                         <p>The right mentoring relationship can be a powerful tool for Professional growth. Bark up the right tree.</p>
                         <Link href="/courses">
