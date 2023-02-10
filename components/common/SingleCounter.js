@@ -12,7 +12,7 @@ const SingleCounter = ({ icon, number, subtitle, border, counter_2 = false }) =>
                <div className={`counter__content ${counter_2 && 'counter__content-2'}`}>
                   <h4>
                      <span className="counter">
-                        <CountUp end={number} duration={5} />
+                        <CountUp end={number} duration={2} />
                      </span>+
                   </h4>
                   <p>{subtitle}</p>

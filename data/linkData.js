@@ -4,23 +4,23 @@ const links = [
         id:1,
         url:'/',
         name:'Home',
-        submenu:[
-            {
-                id:1,
-                url:'/home',
-                name:'Home Style 1'
-            },
-            {
-                id:2,
-                url:'/home-two',
-                name:'Home Style 2'
-            },
-            {
-                id:3,
-                url:'/home-three',
-                name:'Home Style 3'
-            },
-        ]
+        // submenu:[
+        //     {
+        //         id:1,
+        //         url:'/home',
+        //         name:'Home Style 1'
+        //     },
+        //     {
+        //         id:2,
+        //         url:'/home-two',
+        //         name:'Home Style 2'
+        //     },
+        //     {
+        //         id:3,
+        //         url:'/home-three',
+        //         name:'Home Style 3'
+        //     },
+        // ]
     },
 
     {
@@ -33,28 +33,28 @@ const links = [
         id:3,
         url:'/courses',
         name:'Courses',
-        submenu:[
-            {
-                id:1,
-                url:'/courses',
-                name:'Course Style 1'
-            },
-            {
-                id:2,
-                url:'/courses-style-two',
-                name:'Course Style 2'
-            },
-            {
-                id:3,
-                url:'/course-sidebar',
-                name:'Course Sidebar'
-            },
-            {
-                id:4,
-                url:'/course-details',
-                name:'Course Details'
-            },
-        ]
+        // submenu:[
+        //     {
+        //         id:1,
+        //         url:'/courses',
+        //         name:'Course Style 1'
+        //     },
+        //     // {
+        //     //     id:2,
+        //     //     url:'/courses-style-two',
+        //     //     name:'Course Style 2'
+        //     // },
+        //     {
+        //         id:3,
+        //         url:'/course-sidebar',
+        //         name:'Course Sidebar'
+        //     },
+        //     // {
+        //     //     id:4,
+        //     //     url:'/course-details',
+        //     //     name:'Course Details'
+        //     // },
+        // ]
     },
 
 
@@ -125,19 +125,19 @@ const links = [
     {
         id:5,
         url:'/blog',
-        name:'Blog',
-        submenu:[
-            {
-                id:1,
-                url:'/blog',
-                name:'Blog'
-            },
-            {
-                id:2,
-                url:'/blog-details',
-                name:'Blog Details'
-            },
-        ]
+        name:'Blogs',
+        // submenu:[
+        //     {
+        //         id:1,
+        //         url:'/blog',
+        //         name:'Blog'
+        //     },
+        //     {
+        //         id:2,
+        //         url:'/blog-details',
+        //         name:'Blog Details'
+        //     },
+        // ]
     },
 
     {
