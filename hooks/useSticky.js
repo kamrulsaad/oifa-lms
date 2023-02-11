@@ -1,10 +1,13 @@
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 const useSticky = () => {
     const [headerSticky,setHeaderSticky] = useState(false);
 
+    const router = useRouter()
+
     const stickyHeader = () => {
-        if(window.scrollY > 120){
+        if(window.scrollY > (router.pathname === '/' ? 120 : 20)){
             setHeaderSticky(true)
         }
         else{

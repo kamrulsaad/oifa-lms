@@ -8,6 +8,7 @@ import { useGetMyCoursesQuery } from "../../redux/api/apiSlice";
 
 const ProfileArea = () => {
    const { user } = useAuth();
+   console.log(user.photoURL)
    const [request, setRequest] = useState(false);
    const { data: myOrders, isLoading, isError } = useGetMyCoursesQuery(user?.email, {
       skip: !request
@@ -44,7 +45,7 @@ const ProfileArea = () => {
                      <div className="col-xxl-6 col-md-6">
                         <div className="profile__basic d-md-flex align-items-center">
                            <div className="profile__basic-thumb mr-30">
-                              <img src="assets/img/profile/profile-img.jpg" alt="" />
+                              <img src={user?.photoURL ? user?.photoURL : "assets/img/profile/profile-img.jpg" }  alt="" />
                            </div>
                            <div className="profile__basic-content">
                               <h3 className="profile__basic-title">
@@ -52,7 +53,7 @@ const ProfileArea = () => {
                               </h3>
                               <p>{myOrders?.length} Running Courses
                                  <Link href="/my-courses">
-                                    <a >View Course</a>
+                                    <a > View Course</a>
                                  </Link>
                               </p>
                            </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import links from '../../data/linkData';
 import useSticky from '../../hooks/useSticky';
@@ -25,7 +25,16 @@ const HomeTwoHeader = () => {
    // user
    const { user } = useAuth();
    // router
-   const router = useRouter();
+   const router = useRouter()
+
+   const [home, setHome] = useState(false)
+   
+   useEffect(() => {
+      if(router.pathname === '/'){
+         setHome(true)
+      }
+   },[router])
+
    // handleSubmit
    const handleSubmit = e => {
       e.preventDefault();
@@ -40,7 +49,7 @@ const HomeTwoHeader = () => {
    return (
       <>
          <header>
-            <div id="header-sticky" className={headerSticky ? "header__area header__transparent header__sticky" : "header__area header__transparent"}>
+            <div id="header-sticky" className={`header__area ${home && "header__transparent"} ${headerSticky && "header__sticky"}`}>
                <div className="header__bottom">
                   <div className="container">
                      <div className="row align-items-center">
@@ -100,7 +109,7 @@ const HomeTwoHeader = () => {
                               <div className="header__action d-none d-xl-block">
                                  <ul>
                                     <li>
-                                       <Link href="/sign-in">
+                                       <Link href={user?.email ? "/my-profile" : "/sign-in"}>
                                           <a >
                                              <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M7.1466 8.96416C7.05493 8.95499 6.94493 8.95499 6.8441 8.96416C4.66243 8.89083 2.92993 7.10333 2.92993 4.90333C2.92993 2.65749 4.74493 0.833328 6.99993 0.833328C9.24576 0.833328 11.0699 2.65749 11.0699 4.90333C11.0608 7.10333 9.32826 8.89083 7.1466 8.96416Z" stroke="#fb0d0d" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

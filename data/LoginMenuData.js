@@ -37,6 +37,11 @@ const LoginData = [
             url:'/my-profile',
             name:'My Profile'
         },
+        {
+            id:5,
+            url:'/download',
+            name:'Download'
+        },
 ]
 
 export default LoginData;

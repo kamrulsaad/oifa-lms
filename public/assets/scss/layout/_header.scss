@@ -13,6 +13,8 @@
         width: 100%;
         z-index: 99;
         background: transparent;
+        transition: all;
+        transition-duration: 500;
     }
     &__info{
         & ul{

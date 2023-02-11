@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-const HomeTwoFooter = () => {
+const HomeTwoFooter = ({white_bg}) => {
    return (
       <>
          <footer>
             <div className="footer__area">
-               <div className="footer__top grey-bg-4 pt-95 pb-45">
+               <div className={`footer__top ${white_bg ? white_bg : "grey-bg-4"} pt-95 pb-45`}>
                   <div className="container">
                      <div className="row">
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
@@ -14,7 +14,7 @@ const HomeTwoFooter = () => {
                                  <div className="logo">
                                     <Link href="/">
                                        <a >
-                                          <img src="/assets/img/logo/logo-2.png" alt="" />
+                                          <img src="/assets/img/logo/logo.png" alt="" />
                                        </a>
                                     </Link>
                                  </div>
@@ -112,7 +112,7 @@ const HomeTwoFooter = () => {
                      </div>
                   </div>
                </div>
-               <div className="footer__bottom grey-bg-4">
+               <div className={`footer__bottom ${white_bg ? white_bg : "grey-bg-4"}`}>
                   <div className="container">
                      <div className="footer__bottom-inner">
                         <div className="row">

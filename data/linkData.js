@@ -145,6 +145,11 @@ const links = [
         url:'/contact',
         name:'Contact'
     },
+    {
+        id:7,
+        url:'/download',
+        name:'Download'
+    },
 ]
 
 export default links;
