@@ -15,24 +15,24 @@ const AboutArea = ({ about_pt = '' }) => {
                         </div>
                         <div className="about__thumb-left mr-10">
                            <div className="about__thumb-1 mb-10">
-                              <img src="assets/img/about/about-1.jpg" alt="" />
+                              <img width={300} src="assets/img/about/about-1.jpeg" alt="" />
                            </div>
                            <div className="about__thumb-1 mb-10 text-end">
-                              <img src="assets/img/about/about-3.jpg" alt="" />
+                              <img width={250} src="assets/img/about/about-3.jpeg" alt="" />
                            </div>
                         </div>
                         <div className="about__thumb-2 mb-10">
-                           <img src="assets/img/about/about-2.jpg" alt="" />
+                           <img width={350} src="assets/img/about/about-2.jpeg" alt="" />
                         </div>
                      </div>
                   </div>
                   <div className="col-xxl-5 col-xl-5 col-lg-5">
                      <div className="about__content pl-70 pr-25">
                         <div className="section__title-wrapper mb-15">
-                           <span className="section__title-pre">About Educal</span>
-                           <h2 className="section__title">Degrees in Various academic Didciplines</h2>
+                           <span className="section__title-pre">About OIFA</span>
+                           <h2 className="section__title">Enhance Your Skills with OIFA</h2>
                         </div>
-                        <p>Not only can university offer an environment rich in our social an cultural experiences.</p>
+                        <p>OIFA&apos;s expert-led courses in web dev, graphics design & freelancing equip you for success in today&apos;s job market</p>
 
                         <div className="about__list mb-40">
                            <ul>

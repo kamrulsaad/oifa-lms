@@ -36,7 +36,7 @@ const ProfileMenuArea = () => {
                            <div className="nav nav-tabs flex-column justify-content-start text-start" id="nav-tab" role="tablist">
                               <button className="nav-link active" id="nav-account-tab" data-bs-toggle="tab" data-bs-target="#nav-account" type="button" role="tab" aria-controls="nav-account" aria-selected="true"> <i className="fa-regular fa-user"></i> My Account</button>
                               
-                              <button className="nav-link" id="nav-calender-tab" data-bs-toggle="tab" data-bs-target="#nav-calender" type="button" role="tab" aria-controls="nav-calender" aria-selected="false"><i className="fa-regular fa-file-lines"></i>Calender</button>
+                              <button className="nav-link" id="nav-calender-tab" data-bs-toggle="tab" data-bs-target="#nav-calender" type="button" role="tab" aria-controls="nav-calender" aria-selected="false"><i className="fa fa-calendar"></i>Calender</button>
 
                               <button className="nav-link" id="nav-order-tab" data-bs-toggle="tab" data-bs-target="#nav-order" type="button" role="tab" aria-controls="nav-order" aria-selected="false"><i className="fa-regular fa-file-lines"></i>Orders</button>
 

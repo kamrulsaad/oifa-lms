@@ -28,12 +28,12 @@ const HomeTwoHeader = () => {
    const router = useRouter()
 
    const [home, setHome] = useState(false)
-   
+
    useEffect(() => {
-      if(router.pathname === '/'){
+      if (router.pathname === '/') {
          setHome(true)
       }
-   },[router])
+   }, [router])
 
    // handleSubmit
    const handleSubmit = e => {

@@ -6,19 +6,19 @@ const BrandArea = () => {
       <>
          <section className="brand__area pt-40 pb-70">
             <div className="container">
-               <div className="row">
+               <div className="row align-items-center">
                   <div className="col-xxl-4 col-xl-4 col-lg-4">
                      <div className="brand__wrapper">
                         <div className="section__title-wrapper-2">
                            <span className="section__title-pre-2">Testimonials</span>
-                           <h3 className="section__title-2 section__title-2-30">Who will you learn with?</h3>
+                           <h3 className="section__title-2 section__title-2-30">Our partners at a glance</h3>
                         </div>
-                        <p>You can list your partners or instructors brands here to show off your sites reputation</p>
-                        <div className="brand__btn">
+                        <p>See our partners in the process of a dynamic development.</p>
+                        {/* <div className="brand__btn">
                            <Link href="/about">
                               <a className="tp-btn-5 tp-btn-6">View all partners</a>
                            </Link>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                   <div className="col-xxl-8 col-xl-8 col-lg-8">

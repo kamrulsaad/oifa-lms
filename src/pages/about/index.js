@@ -2,7 +2,7 @@ import React from "react";
 import BreadCrumb from "../../../components/common/BreadCrumb";
 import Footer from "../../../components/common/Footer";
 import AboutArea from "../../../components/Home/AboutArea";
-import Header from "../../../components/Home/Header";
+import HomeTwoHeader from "../../../components/HomeTwo/HomeTwoHeader";
 import HomeCourses from "../../../components/Home/HomeCourses";
 import BrandArea from "../../../components/HomeTwo/BrandArea";
 import TeamArea from "../../../components/HomeTwo/TeamArea";
@@ -13,7 +13,7 @@ const About = () => {
   return (
     <>
       <SEO pageTitle="About" />
-      <Header />
+      <HomeTwoHeader />
       <BreadCrumb title="About" subtitle="About" />
       <AboutArea about_pt="pt-120" />
       <HomeCourses />

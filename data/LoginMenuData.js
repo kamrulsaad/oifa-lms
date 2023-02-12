@@ -34,13 +34,13 @@ const LoginData = [
         },
         {
             id:4,
-            url:'/my-profile',
-            name:'My Profile'
+            url:'/download',
+            name:'Download'
         },
         {
             id:5,
-            url:'/download',
-            name:'Download'
+            url:'/contact',
+            name:'Contact'
         },
 ]
 

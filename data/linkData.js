@@ -23,11 +23,11 @@ const links = [
         // ]
     },
 
-    {
-        id:2,
-        url:'/about',
-        name:'About'
-    },
+    // {
+    //     id:2,
+    //     url:'/about',
+    //     name:'About'
+    // },
 
     {
         id:3,
@@ -57,71 +57,6 @@ const links = [
         // ]
     },
 
-
-    {
-        id:4,
-        url:'/about',
-        name:'Pages',
-        submenu:[
-            {
-                id:1,
-                url:'/events',
-                name:'Our Events'
-            },
-            {
-                id:2,
-                url:'/event-details',
-                name:'Event Details'
-            },
-            {
-                id:3,
-                url:'/team',
-                name:'Team'
-            },
-            {
-                id:4,
-                url:'/team-details',
-                name:'Team Details'
-            },
-            {
-                id:5,
-                url:'/404-page',
-                name:'404 Error'
-            },
-            // {
-            //     id:6,
-            //     url:'/my-profile',
-            //     name:'My Profile'
-            // },
-            // {
-            //     id:7,
-            //     url:'/my-courses',
-            //     name:'My Courses'
-            // },
-            {
-                id:8,
-                url:'/sign-in',
-                name:'Sign In'
-            },
-            {
-                id:9,
-                url:'/sign-up',
-                name:'Sign Up'
-            },
-            {
-                id:10,
-                url:'/cart',
-                name:'Cart'
-            },
-            {
-                id:11,
-                url:'/checkout',
-                name:'Checkout'
-            },
-        ]
-        
-    },
-
     {
         id:5,
         url:'/blog',
@@ -139,17 +74,83 @@ const links = [
         //     },
         // ]
     },
+    
+        {
+            id:6,
+            url:'/contact',
+            name:'Contact'
+        },
 
-    {
-        id:6,
-        url:'/contact',
-        name:'Contact'
-    },
     {
         id:7,
         url:'/download',
-        name:'Download'
+        name:'Downloads'
     },
+
+    {
+        id:4,
+        url:'/about',
+        name:'About',
+        submenu:[
+            {
+                id:1,
+                url:'/about',
+                name:'About us'
+            },
+            {
+                id:2,
+                url:'/events',
+                name:'Our Events'
+            },
+            {
+                id:3,
+                url:'/team',
+                name:'Our Instructors'
+            },
+            // {
+            //     id:4,
+            //     url:'/team-details',
+            //     name:'Team Details'
+            // },
+            // {
+            //     id:5,
+            //     url:'/404-page',
+            //     name:'404 Error'
+            // },
+            // {
+            //     id:6,
+            //     url:'/my-profile',
+            //     name:'My Profile'
+            // },
+            // {
+            //     id:7,
+            //     url:'/my-courses',
+            //     name:'My Courses'
+            // },
+            // {
+            //     id:8,
+            //     url:'/sign-in',
+            //     name:'Sign In'
+            // },
+            // {
+            //     id:9,
+            //     url:'/sign-up',
+            //     name:'Sign Up'
+            // },
+            // {
+            //     id:10,
+            //     url:'/cart',
+            //     name:'Cart'
+            // },
+            // {
+            //     id:11,
+            //     url:'/checkout',
+            //     name:'Checkout'
+            // },
+        ]
+        
+    },
+    
 ]
 
 export default links;
