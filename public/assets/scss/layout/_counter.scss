@@ -16,6 +16,7 @@
         @media #{$sm, $xs}{
             padding: 45px 20px;
             padding-right: 20px;
+            justify-content: center;
         }
         &-border{
             position: relative;
